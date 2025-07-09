@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/9e1291809e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section id="landing">
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__logo">
+                    <figure class="logo__wrapper">
+                        <img src="/assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="" class="logo">
+                    </figure>
+                    <h1 class="company__name">Treact</h1>
+                </div>
+                <ul class="nav__links">
+                    <li class="nav__link">
+                        <a href="">About</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="">Pricing</a></li>
+                    <li class="nav__link">
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="">Login</a>
+                    </li>
+                    <li class="nav__link">
+                        <button class="call-to-action">Sign Up</button>
+                    </li>
+                </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal__links">
+                <a class="modal__link">About</a>
+                <a class="modal__link">Blog</a>
+                <a class="modal__link">Pricing</a>
+                <a class="modal__link">Contact Us</a>
+                <a class="modal__link">Login</a>
+                <a class="modal__link modal__link--primary">Sign Up</a>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row home__row">
+                    <div class="get__started">
+                        <h1 class="hook">
+                            Beautiful React Templates <span class="purple">for you.</span>
+                        </h1>
+                        <h2 class="summary">
+                            Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
+                        </h2>
+                        <div class="email__input">
+                            <input type="email" placeholder="Enter Email Address">
+                            <button class="call-to-action home__btn--call">Get Started</button>
+                        </div>
+                        <h3 class="partner__title">
+                            OUR TRUSTED CUSTOMERS
+                        </h3>
+                        <figure class="partner__fig">
+                            <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="" class="partner__img">
+                        </figure>
+                    </div>
+                    <div class="home__img--wrapper">
+                        <figure class="home__img--fig">
+                            <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="" class="home__img">
+                        </figure>
+                    </div>
+                    
+            </div>
+        </header>
+    </section>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="row__narrow">
+                        <h2 class="features__header">
+                            <span class="purple">FEATURES</span>
+                        </h2>
+                        <h1 class="service__banner">
+                            We have Amazing <span class="purple">Service.</span>
+                        </h1>
+                        <h2 class="features__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis porro minus voluptatibus optio inventore omnis reprehenderit necessitatibus?
+                        </h2>
+                        
+                    </div>
+                    <div class="services">
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                Secure
+                                </h1>
+                                <h2 class="features__subtitle service__subtitle">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, recusandae!
+                            </h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                24/7 Support
+                            </h1>
+                            <h2 class="features__subtitle service__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minima!
+                            </h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                Customizable
+                            </h1>
+                            <h2 class="features__subtitle service__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, repellendus!
+                            </h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                Reliable
+                            </h1>
+                            <h2 class="features__subtitle service__subtitle">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, maiores.
+                            </h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                Fast
+                            </h1>
+                            <h2 class="features__subtitle service__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ea.
+                            </h2>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <figure class="service__fig">
+                                <img src="/assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="" class="service__img">
+                            </figure>
+                            <div class="service__words">
+                                <h1 class="service__title">
+                                Easy
+                                </h1>
+                                <h2 class="features__subtitle service__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, voluptas?
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quality">
+            <div class="container">
+                <div class="row">
+                    <div class="quality__words">
+                        <h2 class="quality features__header">
+                            <span class="purple">QUALITY WORK</span>
+                        </h2>
+                        <h1 class="quality service__banner">
+                            Designed and Developed <span class="purple"> by Professionals.</span>
+                        </h1>
+                        <h2 class="quality features__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, at asperiores. Incidunt repellat facilis natus? Quasi eaque beatae nemo aut corrupti voluptas alias ab quam!
+                        </h2>
+                        <button class="quality call-to-action">Get Started</button>
+                    </div>
+                    <figure class="clone__fig">
+                        <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="" class="clone__img">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                    <figure class="steps__fig">
+                        <img src="/assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="" class="steps__img">
+                    </figure>
+                    <div class="steps__words">
+                        <h2 class="features__header steps__label"><span class="purple">STEPS</span></h2>
+                        <h1 class="steps__header">
+                            Easy to <span class="purple">Get Started.</span>
+                        </h1>
+                        <ul class="steps__list">
+                            <li class="steps__item">
+                                <h2 class="steps__number">01</h2>
+                                <div class="step__words">
+                                    <h3 class="steps__command">Register</h3>
+                                    <h3 class="steps__instruction">Create an account with us using Google or Facebook.</h3>
+                                </div>
+                            </li>
+                            <li class="steps__item">
+                                <h2 class="steps__number">02</h2>
+                                <div class="step__words">
+                                    <h3 class="steps__command">Download</h3>
+                                    <h3 class="steps__instruction">Browse and Download the template you like from the marketplace.</h3>
+                                </div>
+                            </li>
+                            <li class="steps__item">
+                                <h2 class="steps__number">03</h2>
+                                <div class="step__words">
+                                    <h3 class="steps__command">Run</h3>
+                                    <h3 class="steps__instruction">Follow the instructions to setup and customize the template to your needs.</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="values">
+            <div class="container">
+                <div class="row">
+                    <div class="values__words">
+                        <h2 class="features__header values__header"><span class="purple">VALUES</span></h2>
+                        <h1 class="values__title">
+                        We Always Abide by Our <span class="purple">Principles.</span>
+                        </h1>
+                        <h3 class="values__subtitle">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit quis accusantium ducimus, officia eum numquam sapiente. Odio, amet beatae ratione eligendi vel molestiae. Cupiditate architecto voluptates quasi ea quidem?
+                        </h3>
+                        <div class="values__wrapper">
+                            <div class="value">
+                                <h1 class="value__title">
+                                    Affordable
+                                </h1>
+                                <h3 class="value__description">
+                                    We promise to offer you the best rate we can - at par with the industry standard.
+                                </h3>
+                            </div>
+                            <div class="value">
+                                <h1 class="value__title">
+                                    Professionalism
+                                </h1>
+                                <h3 class="value__description">
+                                    We assure you that our templates are designed and created by professional designers.
+                                </h3>
+                            </div>
+                        </div>
+                        <button class="call-to-action">Learn More</button>
+                    </div>
+                    <figure class="values__fig">
+                        <img src="/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="" class="values__img">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <h2 class="features__header pricing__header">
+                        <span class="purple">PRICING</span>
+                    </h2>
+                    <h1 class="pricing__title">
+                        Reasonable & Flexible <span class="purple">Plans.</span>
+                    </h1>
+                    <h3 class="pricing__subtitle">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, animi delectus quas harum ducimus laudantium.
+                    </h3>
+                    <div class="plans">
+                        <div class="plan plan__personal">
+                            <div class="plan__top">
+                                <h1 class="plan__name">PERSONAL</h1>
+                                <h1 class="plan__price">$17.99</h1>
+                                <h1 class="plan__period">MONTHLY</h1>
+                            </div>
+                            <div class="plan__middle">
+                                <h1 class="plan__target--group">For Individuals</h1>
+                                <h1 class="template-no">30 Templates</h1>
+                                <h1 class="landingpage-no">7 Landing Pages</h1>
+                                <h1 class="internal-page-no">12 Internal Pages</h1>
+                                <h1 class="assistance__type">Basic Assistance</h1>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class="call-to-action buy__now personal">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="plan plan__business">
+                            <div class="plan__top business__words">
+                                <h1 class="plan__name">BUSINESS</h1>
+                                <h1 class="plan__price">$37.99</h1>
+                                <h1 class="plan__period">MONTHLY</h1>
+                            </div>
+                            <div class="plan__middle business__words">
+                                <h1 class="plan__target--group">For Small Businesses</h1>
+                                <h1 class="template-no">60 Templates</h1>
+                                <h1 class="landingpage-no">15 Landing Pages</h1>
+                                <h1 class="internal-page-no">22 Internal Pages</h1>
+                                <h1 class="assistance__type">Priority Assistance</h1>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class="call-to-action buy__now business">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="plan plan__enterprise">
+                            <div class="plan__top">
+                                <h1 class="plan__name">ENTERPRISE</h1>
+                                <h1 class="plan__price">$57.99</h1>
+                                <h1 class="plan__period">MONTHLY</h1>
+                            </div>
+                            <div class="plan__middle">
+                                <h1 class="plan__target--group">For Large Companies</h1>
+                                <h1 class="template-no">90 Templates</h1>
+                                <h1 class="landingpage-no">27 Landing Pages</h1>
+                                <h1 class="internal-page-no">37 Internal Pages</h1>
+                                <h1 class="assistance__type">Personal Assistance</h1>
+                            </div>
+                            <div class="plan__bottom">
+                                <button class=" call-to-action buy__now enterprise">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter Testimonials Section<!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="start">
+            <div class="container">
+                <div class="row action__row">
+                    <h3 class="action__words">
+                        Developers all over the world are happily using Treact.
+                    </h3>
+                    <div class="button__wrapper">
+                        <button class="action__button learn__more">Learn More</button>
+                        <button class="action__button contact__us">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row footer__row">
+            <div class="footer__main">
+                <h2 class="footer__title">MAIN</h2>
+                <ul class="footer__menu">
+                    <li class="footer__item">Blog</li>
+                    <li class="footer__item">FAQs</li>
+                    <li class="footer__item">Support</li>
+                    <li class="footer__item">About Us</li>
+                </ul>
+            </div>
+            <div class="footer__product">
+                <h2 class="footer__title">PRODUCT</h2>
+                <ul class="footer__menu">
+                    <li class="footer__item">Log In</li>
+                    <li class="footer__item">Personal</li>
+                    <li class="footer__item">Business</li>
+                    <li class="footer__item">Team</li>
+                </ul>
+            </div>
+            <div class="footer__press">
+                <h2 class="footer__title">PRESS</h2>
+                <ul class="footer__menu">
+                    <li class="footer__item">Logos</li>
+                    <li class="footer__item">Events</li>
+                    <li class="footer__item">Stories</li>
+                    <li class="footer__item">Office</li>
+                </ul>
+            </div>
+            <div class="footer__team">
+                <h2 class="footer__title">TEAM</h2>
+                <ul class="footer__menu">
+                    <li class="footer__item">Career</li>
+                    <li class="footer__item">Founders</li>
+                    <li class="footer__item">Culture</li>
+                    <li class="footer__item">Onboarding</li>
+                </ul>
+            </div>
+            <div class="footer__legal">
+                <h2 class="footer__title">LEGAL</h2>
+                <ul class="footer__menu">
+                    <li class="footer__item">GDPR</li>
+                    <li class="footer__item">Privacy Policy</li>
+                    <li class="footer__item">Terms of Service</li>
+                    <li class="footer__item">Disclaimer</li>
+                </ul>
+            </div>
+        </div>
+        
+            
+    </footer>
+    <div class="footer__logo--wrapper">
+                <figure class="footer__logo--fig">
+                    <img src="/assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="" class="footer__logo--img">
+                    <h1 class="company">Treact Inc.</h1>
+                </figure>
+                <h3 class="footer__copyright">&copy; 2018 Treact Inc. All Rights Reserved.</h3>
+                <div class="footer__links">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+        </div>
+    
+</body>
+
+</html>
