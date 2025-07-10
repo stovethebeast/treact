@@ -283,8 +283,9 @@ FEATURES ↓
 }
 
 .features__header {
-    font-size: 12px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 20px 0;
+    letter-spacing: 4px;
     
 }
 
@@ -641,8 +642,77 @@ TESTIMONIALS ↓
 */
 
 
+.fa-solid.fa-star {
+    color: gold
+}
 #testimonials .row {
     display: flex;
+}
+
+
+.testimonial__fig {
+    width: 50%;
+}
+
+.testimonial__img {
+    width: 100%;
+}
+
+.testimonial__header {
+    font-size: 40px;
+    padding: 12px 0;
+}
+
+.testimonial__subtitle {
+    font-size: 18px;
+    color: darkgray;
+    padding-bottom: 24px;
+}
+
+.client__rating {
+    padding: 16px 16px 16px 0;
+}
+
+.client__review {
+    font-weight: 300;
+    padding: 12px 0;
+}
+
+.testimonial__words {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.client__bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.client__fig {
+    width: 15%;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-right: 28px;
+    margin-bottom: 24px;;
+}
+
+.client__img {
+    width: 100%;
+}
+
+.scroll__button {
+    border-radius: 40px;
+    width: 50px;
+    height: 50px
+}
+
+.fa-solid {
+    color: #6415ff;
 }
 
 
@@ -724,6 +794,7 @@ footer {
     background-color: #6415ff;
     color: white;
     display: flex;
+    flex-wrap: wrap;;
     justify-content: space-between;
 }
 
@@ -769,7 +840,6 @@ footer {
 
 .footer__links {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -778,6 +848,7 @@ footer {
     color: white;
     padding-bottom: 24px;
 }
+
 
 .footer__item {
     color: white;
@@ -858,6 +929,166 @@ MOBILE RESPONSIVENESS ↓
     .container {
         padding: 80px 0;
     }
+
+    .get__started {
+        text-align: center;
+        width: 100%;
+    }
+    .home__img--wrapper {
+        width: 100%;
+    }
+
+
+    .home__btn--call {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service__words {
+        text-align: center;
+    }
+
+    .service__subtitle {
+        text-align: center;
+        width: 100%;
+    }
+
+    .clone__fig {
+        width: 100%;
+    }
+
+    .quality__words {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .steps__fig {
+        width: 100%;
+    }
+
+    .steps__words {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .steps__item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quality.features__subtitle {
+        text-align: center;
+    }
+
+    .values__words {
+        width: 100%;
+        text-align: center;
+    }
+
+    .values__wrapper {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .testimonial__words {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .client__bio {
+        display: flex;
+        flex-direction: column;;
+        justify-content: center;
+    }
+
+    .scroll__buttons {
+        display: flex;
+        justify-content: space-around;
+        width: 35%;
+        padding: 8px;
+    }
+
+    .call-to-action {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .quality.call-to-action {
+        margin: 0 auto;
+    }
+
+    .action__row {
+        flex-direction: column;
+    }
+
+    .action__words {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button__wrapper{
+        flex-direction: column;
+    }
+
+    .action__button {
+        width: 100%;
+        margin: 8px 0;
+        height: 48px;
+    }
+
+    .footer__section {
+        width: 25%;
+        font-size: 12px;
+    }
+
+    .footer__logo--wrapper {
+        flex-direction: column;
+        align-items: center;
+        line-height: 4;
+    }
+
+    .footer__logo--fig {
+        padding-bottom: 8px;
+    }
+
+    .footer__row {
+        justify-content: center;
+    }
+
+    .footer__section {
+        text-align: center;
+        padding: 12px;
+        width: 25%;
+    }
+
+    .footer__legal {
+        width: 30%;
+    }
+
+    .company {
+        padding: 0 0 0 12px;
+    }
+
+    li {
+        text-decoration-thickness: 2px;
+        text-underline-offset: 6px;
+    }
+
+
     .nav__logo {
         margin: 8px 0;
         padding-bottom: 4px;
